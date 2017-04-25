@@ -562,7 +562,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 39, y: 17}
-  m_SizeDelta: {x: 470, y: 88}
+  m_SizeDelta: {x: 268, y: 151.31}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1609715782
 MonoBehaviour:
@@ -635,9 +635,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: d3be9673b36de1242be33de6f2db5d18, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -779,7 +779,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Musics used in the game:\n\n\"Rollin at 5 - electronic\", \"Tech Live\"\r\nKevin
-    MacLeod (incompetech.com)\r\nLicensed under Creative Commons: By Attribution 3.0\r\nhttp://creativecommons.org/licenses/by/3.0/\nFont:
+    MacLeod (incompetech.com)\r\nLicensed under Creative Commons: By Attribution 3.0\r\nhttp://creativecommons.org/licenses/by/3.0/\n\nFont:
     Cinematic Language"
 --- !u!222 &2056426570
 CanvasRenderer:
