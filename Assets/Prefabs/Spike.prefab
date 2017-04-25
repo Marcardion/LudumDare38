@@ -36,6 +36,7 @@ GameObject:
   - component: {fileID: 4598537944962736}
   - component: {fileID: 33954644646534848}
   - component: {fileID: 23454639449467110}
+  - component: {fileID: 95417309538701874}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -66,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1932977242833962}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.232262, y: 28.063059, z: -94.31765}
+  m_LocalPosition: {x: 27.35964, y: 19.722715, z: -29.975422}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4789455630027654}
@@ -81,7 +82,7 @@ Transform:
   m_GameObject: {fileID: 1594635000284456}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 65.489426, y: 65.489426, z: 65.489426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4789455630027654}
   m_RootOrder: 0
@@ -94,7 +95,7 @@ Transform:
   m_GameObject: {fileID: 1293530792805704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 65.48943, y: 65.48943, z: 65.48943}
   m_Children:
   - {fileID: 4598537944962736}
   m_Father: {fileID: 4411326197656174}
@@ -138,6 +139,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1594635000284456}
   m_Mesh: {fileID: 4300000, guid: e3df79c2625ec544ba0ad6387764ab96, type: 3}
+--- !u!95 &95417309538701874
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594635000284456}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7e5060ddb54a1d459aac08e875227a1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!135 &135656247077774604
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -148,5 +166,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.2208855
+  m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}

@@ -779,7 +779,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Musics used in the game:\n\n\"Rollin at 5 - electronic\", \"Tech Live\"\r\nKevin
-    MacLeod (incompetech.com)\r\nLicensed under Creative Commons: By Attribution 3.0\r\nhttp://creativecommons.org/licenses/by/3.0/"
+    MacLeod (incompetech.com)\r\nLicensed under Creative Commons: By Attribution 3.0\r\nhttp://creativecommons.org/licenses/by/3.0/\nFont:
+    Cinematic Language"
 --- !u!222 &2056426570
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -8,12 +8,13 @@ public class CellController : MonoBehaviour {
 	public AudioClip deathClip;
 	private float minHeight = -100;
 	private AudioSource myAudio;
+	private Animator myAnimator;
 
 	// Use this for initialization
 	void Start () {
 
 		myAudio = GetComponent<AudioSource> ();
-		
+		myAnimator = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -41,7 +42,8 @@ public class CellController : MonoBehaviour {
 
 	IEnumerator DeathDelay()
 	{
-		yield return new WaitForSeconds (0.5f);
+		myAnimator.SetBool ("Death", true);
+		yield return new WaitForSeconds (1.0f);
 		Death ();
 	}
 
